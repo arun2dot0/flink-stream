@@ -83,6 +83,7 @@ public class StreamingJob {
 	    
 	    dataStream.writeAsText(params.get("output"),FileSystem.WriteMode.OVERWRITE);
 	    env.execute("Read and Write");
+	    
 		/**
 		 * Here, you can start creating your execution plan for Flink.
 		 *
@@ -113,6 +114,6 @@ public class StreamingJob {
 		* execute nc -l 9000  , in other window as source for socket 
 		* tail -f flink-*-taskmanager-*.out  , to see the  changes in log file simultaneously
 		*/
-	     */
+	     
 	}
 }

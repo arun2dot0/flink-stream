@@ -1,0 +1,6 @@
+flinkforward/StreamingJob.class
+flinkforward/WordCount.class
+flinkforward/SocketTextStreamWordCount$LineSplitter.class
+flinkforward/SocketTextStreamWordCount.class
+flinkforward/WordCount$LineSplitter.class
+flinkforward/BatchJob.class
